@@ -1,0 +1,119 @@
+2025-10-30 18:58:02,257 - __main__ - INFO - 🚀 Initializing Raptor Event Scout...
+2025-10-30 18:58:04,926 - storage.supabase_client - INFO - ✅ Supabase client initialized successfully
+2025-10-30 18:58:04,926 - __main__ - INFO - ✅ All agents initialized successfully
+2025-10-30 18:58:04,927 - __main__ - INFO - 🎯 Starting Raptor Event Scout - 2025-10-30 18:58:04.927182
+2025-10-30 18:58:04,927 - __main__ - INFO - 🔍 Phase 1: Discovering events...
+2025-10-30 18:58:04,943 - agents.event_finder - INFO - ✅ Found 1 mock events from Peatix in Osaka
+2025-10-30 18:58:04,943 - agents.event_finder - INFO - ✅ Found 1 mock events from Meetup in Osaka
+2025-10-30 18:58:04,944 - agents.event_finder - INFO - ✅ Found 1 mock events from Peatix in Kobe
+2025-10-30 18:58:04,945 - agents.event_finder - INFO - ✅ Found 1 mock events from Meetup in Kobe
+2025-10-30 18:58:04,946 - agents.event_finder - INFO - ✅ Found 1 mock events from Peatix in Kyoto
+2025-10-30 18:58:04,946 - agents.event_finder - INFO - ✅ Found 1 mock events from Meetup in Kyoto
+2025-10-30 18:58:05,697 - httpx - INFO - HTTP Request: GET https://connpass.com/api/v1/event/?keyword=Kobe&count=20&order=2 "HTTP/1.1 403 Forbidden"
+2025-10-30 18:58:05,699 - agents.event_finder - WARNING - ⚠️ Connpass API blocked request for Kobe. Using mock data instead.
+2025-10-30 18:58:05,714 - httpx - INFO - HTTP Request: GET https://connpass.com/api/v1/event/?keyword=Osaka&count=20&order=2 "HTTP/1.1 403 Forbidden"
+2025-10-30 18:58:05,715 - agents.event_finder - WARNING - ⚠️ Connpass API blocked request for Osaka. Using mock data instead.
+2025-10-30 18:58:05,720 - httpx - INFO - HTTP Request: GET https://connpass.com/api/v1/event/?keyword=Kyoto&count=20&order=2 "HTTP/1.1 403 Forbidden"
+2025-10-30 18:58:05,721 - agents.event_finder - WARNING - ⚠️ Connpass API blocked request for Kyoto. Using mock data instead.
+2025-10-30 18:58:05,722 - agents.event_finder - INFO - ✅ Discovered 9 total events
+2025-10-30 18:58:08,446 - httpx - INFO - HTTP Request: GET https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/events?select=id&source_url=eq.https%3A%2F%2Fconnpass.com%2Fevent%2Fosaka-tech-1761830885.715519 "HTTP/2 200 OK"
+2025-10-30 18:58:08,646 - httpx - INFO - HTTP Request: POST https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/events "HTTP/2 201 Created"
+2025-10-30 18:58:08,649 - storage.supabase_client - INFO - ✅ Saved event: Tech Community Meetup Osaka
+2025-10-30 18:58:08,782 - httpx - INFO - HTTP Request: GET https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/events?select=id&source_url=eq.https%3A%2F%2Fpeatix.com%2Fevent%2FOsaka-ai-1761830884.941871 "HTTP/2 200 OK"
+2025-10-30 18:58:08,920 - httpx - INFO - HTTP Request: POST https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/events "HTTP/2 201 Created"
+2025-10-30 18:58:08,922 - storage.supabase_client - INFO - ✅ Saved event: AI & Startup Networking in Osaka
+2025-10-30 18:58:09,061 - httpx - INFO - HTTP Request: GET https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/events?select=id&source_url=eq.https%3A%2F%2Fmeetup.com%2Ftech-Osaka-1761830884.943017 "HTTP/2 200 OK"
+2025-10-30 18:58:09,189 - httpx - INFO - HTTP Request: POST https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/events "HTTP/2 201 Created"
+2025-10-30 18:58:09,191 - storage.supabase_client - INFO - ✅ Saved event: Tech Innovation Meetup Osaka
+2025-10-30 18:58:09,317 - httpx - INFO - HTTP Request: GET https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/events?select=id&source_url=eq.https%3A%2F%2Fconnpass.com%2Fevent%2Fkobe-tech-1761830885.701021 "HTTP/2 200 OK"
+2025-10-30 18:58:09,470 - httpx - INFO - HTTP Request: POST https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/events "HTTP/2 201 Created"
+2025-10-30 18:58:09,471 - storage.supabase_client - INFO - ✅ Saved event: Tech Community Meetup Kobe
+2025-10-30 18:58:09,604 - httpx - INFO - HTTP Request: GET https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/events?select=id&source_url=eq.https%3A%2F%2Fpeatix.com%2Fevent%2FKobe-ai-1761830884.944126 "HTTP/2 200 OK"
+2025-10-30 18:58:09,745 - httpx - INFO - HTTP Request: POST https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/events "HTTP/2 201 Created"
+2025-10-30 18:58:09,746 - storage.supabase_client - INFO - ✅ Saved event: AI & Startup Networking in Kobe
+2025-10-30 18:58:09,876 - httpx - INFO - HTTP Request: GET https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/events?select=id&source_url=eq.https%3A%2F%2Fmeetup.com%2Ftech-Kobe-1761830884.945245 "HTTP/2 200 OK"
+2025-10-30 18:58:10,033 - httpx - INFO - HTTP Request: POST https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/events "HTTP/2 201 Created"
+2025-10-30 18:58:10,033 - storage.supabase_client - INFO - ✅ Saved event: Tech Innovation Meetup Kobe
+2025-10-30 18:58:10,160 - httpx - INFO - HTTP Request: GET https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/events?select=id&source_url=eq.https%3A%2F%2Fconnpass.com%2Fevent%2Fkyoto-tech-1761830885.721265 "HTTP/2 200 OK"
+2025-10-30 18:58:10,311 - httpx - INFO - HTTP Request: POST https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/events "HTTP/2 201 Created"
+2025-10-30 18:58:10,312 - storage.supabase_client - INFO - ✅ Saved event: Tech Community Meetup Kyoto
+2025-10-30 18:58:10,443 - httpx - INFO - HTTP Request: GET https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/events?select=id&source_url=eq.https%3A%2F%2Fpeatix.com%2Fevent%2FKyoto-ai-1761830884.945245 "HTTP/2 200 OK"
+2025-10-30 18:58:10,596 - httpx - INFO - HTTP Request: POST https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/events "HTTP/2 201 Created"
+2025-10-30 18:58:10,597 - storage.supabase_client - INFO - ✅ Saved event: AI & Startup Networking in Kyoto
+2025-10-30 18:58:10,726 - httpx - INFO - HTTP Request: GET https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/events?select=id&source_url=eq.https%3A%2F%2Fmeetup.com%2Ftech-Kyoto-1761830884.946391 "HTTP/2 200 OK"
+2025-10-30 18:58:10,875 - httpx - INFO - HTTP Request: POST https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/events "HTTP/2 201 Created"
+2025-10-30 18:58:10,878 - storage.supabase_client - INFO - ✅ Saved event: Tech Innovation Meetup Kyoto
+2025-10-30 18:58:10,878 - __main__ - INFO - 💾 Saved 9 events to database
+2025-10-30 18:58:10,878 - __main__ - INFO - 🎯 Phase 2: Ranking events by relevance...
+2025-10-30 18:58:10,879 - agents.event_ranker - INFO - 🔍 Ranking 9 events by relevance...
+2025-10-30 18:58:12,688 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 18:58:15,149 - httpx - INFO - HTTP Request: POST https://os-api.agno.com/telemetry/runs "HTTP/1.1 201 Created"
+2025-10-30 18:58:15,150 - agents.event_ranker - INFO - ⭐ Tech Community Meetup Osaka - Score: 0.75
+2025-10-30 18:58:15,339 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 18:58:17,628 - httpx - INFO - HTTP Request: POST https://os-api.agno.com/telemetry/runs "HTTP/1.1 201 Created"
+2025-10-30 18:58:17,630 - agents.event_ranker - INFO - ⭐ AI & Startup Networking in Osaka - Score: 0.97
+2025-10-30 18:58:18,019 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 18:58:20,283 - httpx - INFO - HTTP Request: POST https://os-api.agno.com/telemetry/runs "HTTP/1.1 201 Created"
+2025-10-30 18:58:20,285 - agents.event_ranker - INFO - ⭐ Tech Innovation Meetup Osaka - Score: 0.94
+2025-10-30 18:58:20,471 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 18:58:22,712 - httpx - INFO - HTTP Request: POST https://os-api.agno.com/telemetry/runs "HTTP/1.1 201 Created"
+2025-10-30 18:58:22,714 - agents.event_ranker - INFO - ⭐ Tech Community Meetup Kobe - Score: 0.72
+2025-10-30 18:58:22,898 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 18:58:25,191 - httpx - INFO - HTTP Request: POST https://os-api.agno.com/telemetry/runs "HTTP/1.1 201 Created"
+2025-10-30 18:58:25,192 - agents.event_ranker - INFO - ⭐ AI & Startup Networking in Kobe - Score: 0.97
+2025-10-30 18:58:25,363 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 18:58:27,672 - httpx - INFO - HTTP Request: POST https://os-api.agno.com/telemetry/runs "HTTP/1.1 201 Created"
+2025-10-30 18:58:27,674 - agents.event_ranker - INFO - ⭐ Tech Innovation Meetup Kobe - Score: 0.94
+2025-10-30 18:58:28,079 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 18:58:30,380 - httpx - INFO - HTTP Request: POST https://os-api.agno.com/telemetry/runs "HTTP/1.1 201 Created"
+2025-10-30 18:58:30,381 - agents.event_ranker - INFO - ⭐ Tech Community Meetup Kyoto - Score: 0.75
+2025-10-30 18:58:30,769 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 18:58:33,449 - httpx - INFO - HTTP Request: POST https://os-api.agno.com/telemetry/runs "HTTP/1.1 201 Created"
+2025-10-30 18:58:33,450 - agents.event_ranker - INFO - ⭐ AI & Startup Networking in Kyoto - Score: 0.97
+2025-10-30 18:58:33,707 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 18:58:36,873 - httpx - INFO - HTTP Request: POST https://os-api.agno.com/telemetry/runs "HTTP/1.1 201 Created"
+2025-10-30 18:58:36,875 - agents.event_ranker - INFO - ⭐ Tech Innovation Meetup Kyoto - Score: 0.94
+2025-10-30 18:58:36,876 - agents.event_ranker - INFO - ✅ Ranked 9 relevant events
+2025-10-30 18:58:36,876 - __main__ - INFO - ⭐ AI & Startup Networking in Osaka - Score: 0.97
+2025-10-30 18:58:36,876 - __main__ - INFO - ⭐ AI & Startup Networking in Kobe - Score: 0.97
+2025-10-30 18:58:36,877 - __main__ - INFO - ⭐ AI & Startup Networking in Kyoto - Score: 0.97
+2025-10-30 18:58:36,877 - __main__ - INFO - ⭐ Tech Innovation Meetup Osaka - Score: 0.94
+2025-10-30 18:58:36,878 - __main__ - INFO - ⭐ Tech Innovation Meetup Kobe - Score: 0.94
+2025-10-30 18:58:36,878 - __main__ - INFO - ⭐ Tech Innovation Meetup Kyoto - Score: 0.94
+2025-10-30 18:58:36,878 - __main__ - INFO - ⭐ Tech Community Meetup Osaka - Score: 0.75
+2025-10-30 18:58:36,878 - __main__ - INFO - ⭐ Tech Community Meetup Kyoto - Score: 0.75
+2025-10-30 18:58:36,879 - __main__ - INFO - ⭐ Tech Community Meetup Kobe - Score: 0.72
+2025-10-30 18:58:36,879 - __main__ - INFO - 🎫 Phase 3: Registering for events...
+2025-10-30 18:58:36,879 - agents.event_registrar - INFO - 🎯 Eligible for registration: AI & Startup Networking in Osaka (Score: 0.97, Price: Free)
+2025-10-30 18:58:36,881 - agents.event_registrar - INFO - 🔗 Attempting Peatix registration for: AI & Startup Networking in Osaka
+2025-10-30 18:58:37,891 - agents.event_registrar - INFO - ✅ Successfully registered for: AI & Startup Networking in Osaka
+2025-10-30 18:58:39,903 - agents.event_registrar - INFO - 🎯 Eligible for registration: AI & Startup Networking in Kobe (Score: 0.97, Price: Free)
+2025-10-30 18:58:39,903 - agents.event_registrar - INFO - 🔗 Attempting Peatix registration for: AI & Startup Networking in Kobe
+2025-10-30 18:58:40,918 - agents.event_registrar - INFO - ✅ Successfully registered for: AI & Startup Networking in Kobe
+2025-10-30 18:58:42,925 - agents.event_registrar - INFO - 🎯 Eligible for registration: AI & Startup Networking in Kyoto (Score: 0.97, Price: Free)
+2025-10-30 18:58:42,925 - agents.event_registrar - INFO - 🔗 Attempting Peatix registration for: AI & Startup Networking in Kyoto
+2025-10-30 18:58:43,935 - agents.event_registrar - INFO - ✅ Successfully registered for: AI & Startup Networking in Kyoto
+2025-10-30 18:58:45,938 - agents.event_registrar - INFO - ℹ️ Registration limit reached (3 events)
+2025-10-30 18:58:45,938 - agents.event_registrar - INFO - 📊 Registration summary: 3 successful, 0 failed
+2025-10-30 18:58:45,940 - __main__ - INFO - ✅ Successfully registered for 3 events
+2025-10-30 18:58:46,388 - httpx - INFO - HTTP Request: POST https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/event_registrations "HTTP/2 201 Created"
+2025-10-30 18:58:46,389 - storage.supabase_client - INFO - ✅ Saved registration: d2ee80cf-25ea-4969-857b-34e00bb557c1
+2025-10-30 18:58:46,529 - httpx - INFO - HTTP Request: POST https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/event_registrations "HTTP/2 201 Created"
+2025-10-30 18:58:46,531 - storage.supabase_client - INFO - ✅ Saved registration: f4993ad5-916b-4768-8919-5e7f27faaddb
+2025-10-30 18:58:46,669 - httpx - INFO - HTTP Request: POST https://mersnjqxutvcopqpsepf.supabase.co/rest/v1/event_registrations "HTTP/2 201 Created"
+2025-10-30 18:58:46,670 - storage.supabase_client - INFO - ✅ Saved registration: 123bcde4-08ad-4be2-a7c1-a3d7f76c6c15
+2025-10-30 18:58:46,672 - __main__ - INFO - 📢 Phase 4: Sending notifications...
+2025-10-30 18:58:46,672 - agents.notifier - INFO - ℹ️ Telegram not configured, skipping Telegram notification
+2025-10-30 18:58:46,672 - agents.notifier - INFO - ℹ️ Email not configured, skipping email notification
+2025-10-30 18:58:46,673 - agents.notifier - INFO - 📊 Digest sent - Telegram: True, Email: True
+2025-10-30 18:58:46,673 - agents.notifier - INFO - ✅ Registration confirmation: AI & Startup Networking in Osaka
+2025-10-30 18:58:46,674 - agents.notifier - INFO - ✅ Registration confirmation: AI & Startup Networking in Kobe
+2025-10-30 18:58:46,674 - agents.notifier - INFO - ✅ Registration confirmation: AI & Startup Networking in Kyoto
+2025-10-30 18:58:46,674 - __main__ - INFO - 
+    🎉 Raptor Event Scout completed successfully!
+    📊 Summary:
+       - Discovered: 9 events
+       - Relevant: 9 events  
+       - Registered: 3 events
+       - Notifications: Sent
+            

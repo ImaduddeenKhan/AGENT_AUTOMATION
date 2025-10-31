@@ -1,0 +1,13 @@
+agno
+phi
+groq
+httpx
+beautifulsoup4
+python-dotenv
+supabase
+apscheduler
+python-telegram-bot
+pydantic
+sqlalchemy
+pytest
+requests
