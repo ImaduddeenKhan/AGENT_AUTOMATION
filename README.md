@@ -162,4 +162,4 @@ Contributions are welcome. Please:
 ---
 
 ## 📜 License
-No license file is currently included. Usage, distribution, or modification rights are not granted without permission—contact the repository owner for access.
+No license. Usage, distribution, or modification rights are not granted without permission—contact the repository owner for access.
