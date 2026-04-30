@@ -18,12 +18,14 @@
 ## 🚀 Project Overview
 Raptor Event Scout is a multi‑agent system that automatically discovers local tech/business events, scores their relevance using LLM‑powered analysis, and auto‑registers for the best free opportunities. Results are saved to Supabase and optionally delivered via Telegram or email.
 
+**Repository name:** `AGENT_AUTOMATION` (project branding: **Raptor Event Scout**)
+
 **Flow:** Discover → Rank → Register → Notify → Store
 
 **At a glance:**
 - **Target cities:** Osaka, Kobe, Kyoto
 - **Platforms:** Connpass + mock Peatix/Meetup sources
-- **Auto‑registration:** Free events with relevance ≥ 0.8 (max 3 per run)
+- **Auto‑registration:** Defaults to free events with relevance ≥ 0.8 (max 3 per run)
 - **Outputs:** Supabase records + optional Telegram/email digest
 
 ---
@@ -160,4 +162,4 @@ Contributions are welcome. Please:
 ---
 
 ## 📜 License
-No license file is currently included—contact the repository owner for usage permissions.
+No license file is currently included. Usage, distribution, or modification rights are not granted without permission—contact the repository owner for access.
