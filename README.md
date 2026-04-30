@@ -18,7 +18,7 @@
 ## 🚀 Project Overview
 Raptor Event Scout is a multi‑agent system that automatically discovers local tech/business events, scores their relevance using LLM‑powered analysis, and auto‑registers for the best free opportunities. Results are saved to Supabase and optionally delivered via Telegram or email.
 
-**Repository name:** `AGENT_AUTOMATION` (project branding: **Raptor Event Scout**)
+**Repository name:** `AGENT_AUTOMATION` (project branding: **Raptor Event Scout**). The repository name reflects the broader automation umbrella, while this project focuses on event scouting.
 
 **Flow:** Discover → Rank → Register → Notify → Store
 
@@ -80,7 +80,7 @@ Raptor Event Scout is a multi‑agent system that automatically discovers local 
 
 ### Install
 ```bash
-git clone https://github.com/ImaduddeenKhan/AGENT_AUTOMATION.git
+git clone https://github.com/ImaduddeenKhan/AGENT_AUTOMATION.git  # or your fork URL
 cd AGENT_AUTOMATION
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
