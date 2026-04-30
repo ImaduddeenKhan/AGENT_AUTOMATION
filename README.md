@@ -10,7 +10,7 @@
   <img alt="Groq" src="https://img.shields.io/badge/LLM-Groq-green.svg" />
   <img alt="Supabase" src="https://img.shields.io/badge/Database-Supabase-orange.svg" />
   <img alt="Status" src="https://img.shields.io/badge/Status-Active-success.svg" />
-  <img alt="License" src="https://img.shields.io/badge/License-No%20License-lightgrey.svg" />
+  <img alt="License" src="https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey.svg" />
 </p>
 
 ---
@@ -162,4 +162,4 @@ Contributions are welcome. Please:
 ---
 
 ## 📜 License
-No license. Usage, distribution, or modification rights are not granted without permission—contact the repository owner for access.
+All rights reserved. Contact the repository owner for usage permissions.
