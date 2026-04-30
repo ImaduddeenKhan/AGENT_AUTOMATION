@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3.8%2B-blue.svg" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.8+-blue.svg" />
   <img alt="Build" src="https://img.shields.io/badge/Build-Manual-lightgrey.svg" />
   <img alt="Groq" src="https://img.shields.io/badge/LLM-Groq-green.svg" />
   <img alt="Supabase" src="https://img.shields.io/badge/Database-Supabase-orange.svg" />
@@ -78,6 +78,7 @@ Raptor Event Scout is a multi‑agent system that automatically discovers local 
 - Optional: Telegram bot token and email SMTP credentials
 
 ### Install
+Official repository: https://github.com/ImaduddeenKhan/AGENT_AUTOMATION (replace with your fork if needed).
 ```bash
 git clone https://github.com/ImaduddeenKhan/AGENT_AUTOMATION.git
 cd AGENT_AUTOMATION
@@ -85,7 +86,6 @@ python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
-If you're using a fork, replace the clone URL accordingly.
 
 ### Environment Variables
 Create a `.env` file in the project root:
