@@ -5,12 +5,12 @@
 </p>
 
 <p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3.8%2B-blue" />
-  <img alt="Build" src="https://img.shields.io/badge/Build-Manual-lightgrey" />
-  <img alt="Groq" src="https://img.shields.io/badge/LLM-Groq-green" />
-  <img alt="Supabase" src="https://img.shields.io/badge/Database-Supabase-orange" />
-  <img alt="Status" src="https://img.shields.io/badge/Status-Active-success" />
-  <img alt="License" src="https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.8%2B-blue.svg" />
+  <img alt="Build" src="https://img.shields.io/badge/Build-Manual-lightgrey.svg" />
+  <img alt="Groq" src="https://img.shields.io/badge/LLM-Groq-green.svg" />
+  <img alt="Supabase" src="https://img.shields.io/badge/Database-Supabase-orange.svg" />
+  <img alt="Status" src="https://img.shields.io/badge/Status-Active-success.svg" />
+  <img alt="License" src="https://img.shields.io/badge/License-No%20License-lightgrey.svg" />
 </p>
 
 ---
@@ -160,4 +160,4 @@ Contributions are welcome. Please:
 ---
 
 ## 📜 License
-All rights reserved unless otherwise stated. No license file is currently included—contact the repository owner for usage permissions.
+No license file is currently included—contact the repository owner for usage permissions.
