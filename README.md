@@ -10,7 +10,7 @@
   <img alt="Groq" src="https://img.shields.io/badge/LLM-Groq-green" />
   <img alt="Supabase" src="https://img.shields.io/badge/Database-Supabase-orange" />
   <img alt="Status" src="https://img.shields.io/badge/Status-Active-success" />
-  <img alt="License" src="https://img.shields.io/badge/License-Unlicensed-lightgrey" />
+  <img alt="License" src="https://img.shields.io/badge/License-All%20Rights%20Reserved-lightgrey" />
 </p>
 
 ---
@@ -20,11 +20,11 @@ Raptor Event Scout is a multi‑agent system that automatically discovers local 
 
 **Flow:** Discover → Rank → Register → Notify → Store
 
-**1‑minute understanding:**
-- **What it does:** Finds and auto‑registers for the most relevant tech events in target cities.
-- **Why it matters:** Saves hours of manual research and helps teams find partnerships and clients faster.
-- **Key features:** LLM relevance scoring, automated registration, and notification digests.
-- **Tech stack:** Python + Groq LLM + Supabase + Telegram/Email.
+**At a glance:**
+- **Target cities:** Osaka, Kobe, Kyoto
+- **Platforms:** Connpass + mock Peatix/Meetup sources
+- **Auto‑registration:** Free events with relevance ≥ 0.8 (max 3 per run)
+- **Outputs:** Supabase records + optional Telegram/email digest
 
 ---
 
@@ -160,4 +160,4 @@ Contributions are welcome. Please:
 ---
 
 ## 📜 License
-This project does not currently include a license file. Contact the repository owner for usage permissions.
+All rights reserved unless otherwise stated. No license file is currently included—contact the repository owner for usage permissions.
